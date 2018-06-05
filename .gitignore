@@ -17,6 +17,7 @@ eggs/
 .eggs/
 lib/
 lib64/
+out/
 parts/
 sdist/
 var/
@@ -110,3 +111,14 @@ ENV/
 **/.DS_Store
 **/model_output
 *.h5
+
+# IDE stuff
+big-data-engineer-test.*
+gradlew*
+.idea
+.gradle
+gradle
+
+# runtime objects
+metastore_db
+spark-warehouse
